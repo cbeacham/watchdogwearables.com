@@ -1,3 +1,27 @@
-.sidebar {
+#sidebar .title {
 	text-align: center;
+	background-color: #2A75B1;
+	color: white;
+}
+
+#sidebar .home {
+	text-align: center;
+	color: black;
+}
+
+#sidebar .local{
+	text-align: center;
+	color: black;
+}
+
+#sidebar .home:hover {
+	background-color: #A9EC4E;
+	text-decoration: none;
+	color: white;
+}
+
+#sidebar .local:hover {
+	background-color: #CF0023;
+	text-decoration: none;
+	color: white;
 }
