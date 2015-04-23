@@ -1,0 +1,19 @@
+.fpleads {
+	height: 150px;
+	line-height: 150px;
+}
+
+.fpleads img {
+	width: 800px;
+}
+
+.title {
+	text-align: left;
+	font-size: 25px;
+}
+
+.date {
+	text-align: center;	
+	font-size: 20px;
+	background-color: grey;
+}

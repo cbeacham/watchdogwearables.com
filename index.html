@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Copatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, intial-scale-1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
+		<link href="css/header.css" rel="stylesheet">
+		<link href="css/content-area.css" rel="stylesheet">
+		<link href="css/sidebar.css" rel="stylesheet">
+		<script src="jquery-2.1.3.js"></script>
+		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+		<script> 
+		$(function(){
+			$("#fpleads").load("resources/content-area.html");
+			$("#sidebar").load("resources/sidebar.html");
+		}); 
+		</script>
+	</head>
+
+	<header class='nav navbar-fixed-top'>
+		<div class='container'>
+			<div class='row'>
+				<div class="logo"><a href="#"><img src="img/DogLogo2.png"></a></div>
+				<div class="right-header">
+					<div class="title"> WatchDog Wearables </div>
+					<div class="cats">
+						<div>All  /  Tech / Home / Local
+							<span class="glyphicon glyphicon-search search" aria-hidden="true"></span>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<body class='container-fluid'>
+		<div class="col-md-8 content-area">
+			<div id="fpleads"></div>
+		</div>
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-3 sidebar">
+			<div id="sidebar"></div>
+		</div>
+	</body>
+
+
+
+	<footer>
+
+	</footer>
+
+
+
+
+</html>
