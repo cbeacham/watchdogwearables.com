@@ -16,3 +16,16 @@ header .search {
 	font-size: 20px;
 	color: white;
 }
+
+@media(max-width:767px) {
+
+	header .logo {
+		width: 16.5%;
+	}
+	
+	header .name {
+		font-size: 35px;
+		line-height: 60px;
+	}
+   
+}

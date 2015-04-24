@@ -28,20 +28,24 @@ header {
 body {
 }
 
-.content-area {
-	margin: 15% auto;
-	width: 80%;
+.body-area {
+	margin: 13% auto;
+	width: 95%;
 }
 
 .spacer {
 }
 
 .sidebar {
-	background-color: #FFFFFF;
+	margin: 4% auto;
 }
 
 
-@media(min-width:767px) {
+@media(max-width:767px) {
+   
+   header {
+   	height: 60px;
+   }
    
 }
 
@@ -58,5 +62,9 @@ only screen and (min-device-pixel-ratio: 1.5){
     overflow-x: hidden;
     height: auto;
   }
+  
+  
+  
+  
 
 }

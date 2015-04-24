@@ -1,0 +1,42 @@
+<script> 
+		$(function(){
+			$("#content").load("resources/articles.html");
+		}); 
+</script>
+<script>
+		$(document).ready(function() {
+			$("#all").click(function() {
+				$(".apple").show();
+				$(".android").show();
+				$(".pebble").show();
+			});
+			$("#apple").click(function() {
+				$(".android").hide();
+				$(".pebble").hide();
+				$(".apple").show();
+			});
+			$("#android").click(function() {
+				$(".apple").hide();
+				$(".pebble").hide();
+				$(".android").show();
+			});
+			$("#pebble").click(function() {
+				$(".apple").hide();
+				$(".android").hide();
+				$(".pebble").show();
+			});
+		});
+</script>
+
+<div class='row categories'>
+	<div class='nav'> 
+			<a href="#"><div class="col-sm-3 cat" id="all">All</div></a>
+			<a href="#"><div class="col-sm-3 cat" id="apple">Apple</div></a>
+			<a href="#"><div class="col-sm-3 cat" id="android">Android</div></a>
+			<a href="#"><div class="col-sm-3 cat" id="pebble">Pebble</div></a>
+	</div>
+</div>
+
+<div id='content'>
+
+</div>
